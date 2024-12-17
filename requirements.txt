@@ -135,7 +135,7 @@ tensorboard==2.16.2
 tensorboard-data-server==0.7.2
 tensorflow==2.16.1
 termcolor==2.4.0
-tf-nightly==2.18.0.dev20240916
+tf-nightly==2.19.0.dev20241216
 threadpoolctl==3.4.0
 toml==0.10.2
 toolz==0.12.1
