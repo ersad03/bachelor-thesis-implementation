@@ -84,9 +84,9 @@ def main():
     )
 
     # Debug information
-    if st.checkbox("Show Debug Info"):
-        st.write(f"Repository directory: {REPO_DIR}")
-        st.write(f"Files in directory: {[f.name for f in REPO_DIR.glob('*') if f.is_file()]}")
+    #if st.checkbox("Show Debug Info"):
+    #    st.write(f"Repository directory: {REPO_DIR}")
+    #    st.write(f"Files in directory: {[f.name for f in REPO_DIR.glob('*') if f.is_file()]}")
 
     # Create tabs for different categories
     tab1, tab2, tab3 = st.tabs(["PCAP Files", "CSV Files", "Images"])
