@@ -60,7 +60,7 @@ def display_file_section(files_dict: dict, file_extension: str, mime_type: str):
                             encoded_image = base64.b64encode(img_file.read()).decode()
                             st.markdown(
                                 f"""
-                                <div style="border: 1px solid #ccc; padding: 10px; margin-bottom: 20px;">
+                                <div padding: 10px; margin-bottom: 20px;">
                                     <img src="data:image/png;base64,{encoded_image}"
                                          style="width:100%; border-radius: 10px;"
                                          alt="{filename}"/>
