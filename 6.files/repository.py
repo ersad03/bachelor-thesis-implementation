@@ -5,7 +5,7 @@ from pathlib import Path
 
 # Use Path for more robust path handling
 SCRIPT_DIR = Path(__file__).parent.absolute()
-REPO_DIR = SCRIPT_DIR.parent / "bachelor-thesis" / "rep"
+REPO_DIR = SCRIPT_DIR.parent / "bachelor-thesis-implementation" / "rep"
 
 # Information about each file (file name as key)
 files_info = {
